@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&display=swap');
+
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(241, 172, 107, 0.767),rgba(255, 217, 0, 0.623)), url('../pictures/wolves-1341881_1920.jpg');
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav ul{
+    color: rgb(253, 253, 245);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+}
+ 
+nav ul li{
+   
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+nav ul li:first-child{
+
+    color: blue;
+    margin-right: auto;
+    margin-left: 50px;
+
+}
+
+.hero{
+
+    color: rgb(220, 251, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    cursor: default;
+}
+.hero h2{
+
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.hero h3{
+ 
+    letter-spacing: 15px;
+
+}
+
+/* ***********************section02***************** */
+
+.headline{
+
+    text-align: center;
+    padding: 34px;  
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.headline h2{
+
+    padding: 15px;
+    font-size: 26px;
+
+}
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 40px 80px;
+
+
+
+
+
+}
+
+.card{
+
+    
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.199);
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+.card img{
+
+    width: 100%;
+
+
+
+}
+
+.card h1 {
+
+    margin: 10px;
+
+
+}
+
+.card h2{
+
+    margin: 10px;
+
+
+}
+
+.card button{
+
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 34px;
+    border: none;
+    background-color: lightseagreen;
+    color: linen;
+}
+
+/* ***************section3************** */
+
+.headline{
+
+    text-align: center;
+    padding: 34px;  
+    font-family: 'Dancing Script', cursive;                
+
+
+}
+
+.headline h2{
+
+    padding: 15px;
+    font-size: 26px;
+
+}
+
+.headbox{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px; 
+    margin: 40px 90px;
+}
+
+.headbox img{
+
+    width: 100%;
+
+
+}
+.div{
+
+    background-color: lightseagreen;
+    padding: 40px 40px;
+
+}
